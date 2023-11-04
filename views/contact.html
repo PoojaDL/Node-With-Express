@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+
+    <style>
+      ul {
+        padding: 20px;
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/">Shop</a></li>
+          <li><a href="/admin/add-product">Add Product</a></li>
+          <li><a href="/contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <form method="POST" action="/contact">
+      <input type="text" name="user" />
+      <button>Send</button>
+    </form>
+  </body>
+</html>
